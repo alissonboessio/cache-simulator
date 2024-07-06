@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <time.h>
 
 typedef enum {WriteThrough, WriteBack} PoliticaEscrita;
 typedef enum {LFU, LRU, Aleatoria} PoliticaSubstituicao;
